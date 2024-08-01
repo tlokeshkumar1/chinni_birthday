@@ -25,7 +25,7 @@ const Wishes = () => {
   return (
     <div className="container">
       <img src="cake.jpg" alt="Birthday Cake" className="cake" />
-      <h1>Happy Birthday, Priyanka !!! 🩷🎂🥳</h1>
+      <h1>Happy Happy Happyyyyyyyy Birthday, Priyanka !!! 🩷🎂🥳</h1>
       <p>
         On your special day, I want to wish you a life filled with happiness,
         good health, and the fulfillment of all your dreams and goals. You have
