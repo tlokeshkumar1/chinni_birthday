@@ -4,7 +4,7 @@ import "./styles.css"; // Ensure you have this CSS file in the src directory
 
 const Wishes = () => {
   useEffect(() => {
-    emailjs.init("segsdhdsh"); // Replace with your EmailJS user ID
+    emailjs.init("TemSz5cC3VMXtzamM"); // Replace with your EmailJS user ID
 
     const sendNotification = () => {
       emailjs
