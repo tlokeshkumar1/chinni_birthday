@@ -34,6 +34,7 @@ nav ul li a {
 h1 {
     justify-content: center;
     color: #ff1493;
+    font-size: 1.45em;
     margin-bottom: 0.5em;
     display: flex;
 }
