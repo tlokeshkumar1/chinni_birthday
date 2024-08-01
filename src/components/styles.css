@@ -31,6 +31,18 @@ nav ul li a {
     margin-top: 50px;
 }
 
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-player {
+    border: none;
+    width: 640px;  /* Set the width you want for the video */
+    height: 480px; /* Set the height you want for the video */
+  }
+
 h1 {
     justify-content: center;
     color: #ff1493;

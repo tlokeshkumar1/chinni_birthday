@@ -3,6 +3,9 @@ import emailjs from "@emailjs/browser";
 import "./styles.css"; // Ensure you have this CSS file in the src directory
 
 const BirthdayVideo = () => {
+  const videoUrl =
+    "https://drive.google.com/file/d/1TRCidNt2a1inpxFDPxIg59EUSizARJ5J/preview";
+
   useEffect(() => {
     emailjs.init("segsdhdsh"); // Replace with your EmailJS user ID
 
@@ -24,10 +27,14 @@ const BirthdayVideo = () => {
   return (
     <div className="container">
       <p>Chinni kosam chinni video</p>
-      <video controls>
-        <source src="/path_to_your_birthday_wish_video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <div className="video-wrapper">
+        <iframe
+          src={videoUrl}
+          className="video-player"
+          allow="autoplay"
+          title="Google Drive Video"
+        />
+      </div>
     </div>
   );
 };
