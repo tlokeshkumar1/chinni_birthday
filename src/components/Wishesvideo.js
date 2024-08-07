@@ -6,8 +6,10 @@ const BirthdayVideo = () => {
   const videoUrl =
     "https://drive.google.com/file/d/1TRCidNt2a1inpxFDPxIg59EUSizARJ5J/preview";
 
+    const videoUrl1 = 
+    "https://drive.google.com/file/d/1UtojPxSicQhlyCHQPfevB8fP3ul_0QDS/preview";
   useEffect(() => {
-    emailjs.init(""); // Replace with your EmailJS user ID
+    emailjs.init("TemSz5cC3VMXtzamM"); // Replace with your EmailJS user ID
 
     const sendNotification = () => {
       emailjs
@@ -30,6 +32,17 @@ const BirthdayVideo = () => {
       <div className="video-wrapper">
         <iframe
           src={videoUrl}
+          className="video-player"
+          allow="autoplay"
+          title="Google Drive Video"
+        />
+      </div>
+      <br></br>
+      <p>Second video</p>
+      <br></br>
+      <div className="video-wrapper">
+        <iframe
+          src={videoUrl1}
           className="video-player"
           allow="autoplay"
           title="Google Drive Video"
