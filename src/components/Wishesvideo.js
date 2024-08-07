@@ -7,7 +7,7 @@ const BirthdayVideo = () => {
     "https://drive.google.com/file/d/1TRCidNt2a1inpxFDPxIg59EUSizARJ5J/preview";
 
   useEffect(() => {
-    emailjs.init("TemSz5cC3VMXtzamM"); // Replace with your EmailJS user ID
+    emailjs.init(""); // Replace with your EmailJS user ID
 
     const sendNotification = () => {
       emailjs
