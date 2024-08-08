@@ -4,7 +4,7 @@ import "./styles.css"; // Ensure you have this CSS file in the src directory
 
 const Wishes = () => {
   useEffect(() => {
-    emailjs.init("TemSz5cC3VMXtzamM"); // Replace with your EmailJS user ID
+    emailjs.init(""); // Replace with your EmailJS user ID
 
     const sendNotification = () => {
       emailjs
@@ -37,6 +37,27 @@ const Wishes = () => {
         together. Whether it's exploring new places or watching the latest
         movies, we must make the most of our time whenever we meet. These
         moments are precious, and I look forward to each one of them.
+      </p>
+      <p>TemSz5cC3VMXtzamM</p>
+      <p>
+        Birthday Wish Video section lo inko video ni kosam wait chestundhi poiye
+        chudu
+      </p>
+      <p>
+        And apudiyna low ga gani stress ga gani feel aiythey naku phn aiyna msg
+        aiyna chesiye don't hesitate nuv free ga untene le. ekuva tension padaku
+        chinni health ki kuda antha manchidhi kadhu.
+      </p>
+      <p>
+        And finally ninu nuv apudu ana thakuva chesukunavu anuko chudu okati
+        gurthu thechuko chinni 2 years kastapadi mari e the best college lo seat
+        thechukunav this not a joke... pedha college lo seat thechukovadam antey
+        verey asalu. so don't feel your slef down. Valani chusi velani chusi
+        anukoku vel nti enthala chaduvuthuru ani bayapadaku. niku undey talent
+        niku untadhi don't lose your hope. 2 sems aiyaiye with out any single
+        baclogs so be proud... adhey level migitha ani sems kuda covers chesiye
+        nuv chesesthav naku telsu... nen gatiga anukuntuna manchiga nee clg
+        aiypogotukoni.. ne area side manchi job thechukuntav ani
       </p>
       <p>
         Just remember to always be yourself, stay happy, and live life to the
