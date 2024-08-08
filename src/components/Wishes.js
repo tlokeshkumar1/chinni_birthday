@@ -4,7 +4,7 @@ import "./styles.css"; // Ensure you have this CSS file in the src directory
 
 const Wishes = () => {
   useEffect(() => {
-    emailjs.init(""); // Replace with your EmailJS user ID
+    emailjs.init("TemSz5cC3VMXtzamM"); // Replace with your EmailJS user ID
 
     const sendNotification = () => {
       emailjs
@@ -38,7 +38,6 @@ const Wishes = () => {
         movies, we must make the most of our time whenever we meet. These
         moments are precious, and I look forward to each one of them.
       </p>
-      <p>TemSz5cC3VMXtzamM</p>
       <p>
         Birthday Wish Video section lo inko video ni kosam wait chestundhi poiye
         chudu
